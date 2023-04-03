@@ -24,11 +24,11 @@ export const Statistics = ({
       </Item>
       <Item>
         <Title>Total:</Title>
-        <Stat>{total()}</Stat>
+        <Stat>{total}</Stat>
       </Item>
       <Item>
         <Title>Positive percentage:</Title>
-        <Stat>{positivePercentage()}%</Stat>
+        <Stat>{positivePercentage}%</Stat>
       </Item>
     </List>
   );
