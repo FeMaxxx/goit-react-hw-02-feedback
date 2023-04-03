@@ -7,7 +7,7 @@ export const Container = styled.div`
 
   text-align: center;
 
-  &:first-child {
+  &:first-of-type {
     margin-top: 100px;
     margin-bottom: 20px;
   }
